@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { GridImagenesComponent } from './components/grid-imagenes/grid-imagenes.component';
 import { HomeComponent } from './components/home/home.component';
+import { GridIntegrantesComponent } from './components/grid-integrantes/grid-integrantes.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     GridImagenesComponent,
-    HomeComponent
+    HomeComponent,
+    GridIntegrantesComponent,
+    FooterComponent
 
   ],
   imports: [

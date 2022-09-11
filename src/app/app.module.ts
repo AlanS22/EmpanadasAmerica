@@ -8,6 +8,8 @@ import { GridImagenesComponent } from './components/grid-imagenes/grid-imagenes.
 import { HomeComponent } from './components/home/home.component';
 import { GridIntegrantesComponent } from './components/grid-integrantes/grid-integrantes.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TitulohomeComponent } from './components/navbar/titulohome/titulohome.component';
+
 
 @NgModule({
   declarations: [
@@ -16,8 +18,8 @@ import { FooterComponent } from './components/footer/footer.component';
     GridImagenesComponent,
     HomeComponent,
     GridIntegrantesComponent,
-    FooterComponent
-
+    FooterComponent,
+    TitulohomeComponent
   ],
   imports: [
     BrowserModule,

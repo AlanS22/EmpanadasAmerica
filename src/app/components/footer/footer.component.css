@@ -38,3 +38,9 @@
     opacity: 1;
   }
 }
+.footer{
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0;
+}

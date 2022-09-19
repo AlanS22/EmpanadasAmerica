@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { GridIntegrantesComponent } from './components/grid-integrantes/grid-integrantes.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TitulohomeComponent } from './components/navbar/titulohome/titulohome.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { TitulohomeComponent } from './components/navbar/titulohome/titulohome.c
     HomeComponent,
     GridIntegrantesComponent,
     FooterComponent,
-    TitulohomeComponent
+    TitulohomeComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
